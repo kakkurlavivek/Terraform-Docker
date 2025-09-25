@@ -1,0 +1,25 @@
+# Local .terraform directories (Terraform plugin, provider, and module cache)
+.terraform/
+
+# Terraform state files (may contain secrets)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+
+# Crash logs (if present)
+crash.log
+crash.*.log
+
+# Sensitive variable and override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output
+*.tfplan
+
+# Terraform lock file (optional, but often excluded for open projects)
+.terraform.lock.hcl
